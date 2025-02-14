@@ -20,3 +20,9 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
+/*
+npx hardhat node
+다른 bash창 프론트말고 같은 디렉
+npx hardhat run scripts/deploy.js --network ganache
+*/
